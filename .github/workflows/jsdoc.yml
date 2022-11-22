@@ -19,3 +19,10 @@ jobs:
           source_dir: ./src
           out_dir: ./out
           front_page: README.md
+
+      - name: Install rsync
+        run: |
+          apt-get update && apt-get install -y rsync
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
