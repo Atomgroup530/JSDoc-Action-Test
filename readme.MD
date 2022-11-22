@@ -1,3 +1,5 @@
+website: https://atomgroup530.github.io/JSDoc-Action-Test/
+
 # JSDoc GitHUb Actions
 
 andstor/jsdoc-action@v1: https://github.com/marketplace/actions/jsdoc-action
