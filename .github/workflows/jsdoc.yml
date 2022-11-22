@@ -6,7 +6,7 @@ on:
   pull:
 
 jobs:
-  deploy
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
